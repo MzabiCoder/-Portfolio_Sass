@@ -1011,6 +1011,14 @@ img {
     }
     
 }
+@media (max-width:412px){
+    .footer-content {
+        .social{
+            display: none;
+        }
+    }
+    
+}
 
 @import 'mquery';
     
