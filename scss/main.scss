@@ -416,13 +416,14 @@ img {
 
 
 
-@media (max-width:540px){
-    .test{
-       font-size: 1rem;
+@media (max-width:540px) {
+    .test {
+        font-size: 1rem;
     }
-    .item-text-title{
-        padding: 0 1rem!important;
-        
+
+    .item-text-title {
+        padding: 0 1rem !important;
+
     }
 }
 
@@ -978,7 +979,8 @@ img {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        .social{
+
+        .social {
 
             .fab {
                 margin-right: 1rem;
@@ -987,12 +989,12 @@ img {
                 transition: all 1s;
                 cursor: pointer;
                 border: 1px solid #fff;
-                 padding: .4rem;
+                padding: .4rem;
                 border-radius: 50%;
                 font-size: 1rem;
-    
+
                 color: white;
-    
+
                 &:hover {
                     background: $main-color
                 }
@@ -1004,24 +1006,25 @@ img {
 
 }
 
-@media (max-width:800px){
+@media (max-width:800px) {
     .footer-content {
         text-align: center;
         margin: auto;
     }
-    
+
 }
-@media (max-width:412px){
+
+@media (max-width:412px) {
     .footer-content {
-        .social{
+        .social {
             display: none;
         }
     }
-    
+
 }
 
 @import 'mquery';
-    
+
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
 
 
@@ -1059,6 +1062,6 @@ img {
 
 @keyframes dots {
     to {
-        width: 7rem;
+        width: 6.5rem;
     }
 }
